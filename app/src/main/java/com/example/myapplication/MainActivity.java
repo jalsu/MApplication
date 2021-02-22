@@ -8,9 +8,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import static com.example.myapplication.R.id.n2;
+
 public class MainActivity extends AppCompatActivity {
     Button b;
     EditText e;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         b=(Button) findViewById(R.id.c);
         e=(EditText) findViewById(R.id.n);
+
         b.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

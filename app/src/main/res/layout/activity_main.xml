@@ -20,7 +20,8 @@
         android:inputType="textPersonName"
         android:paddingTop="20dp"
         android:paddingBottom="20dp"
-        android:text="Name"
+        android:text="Enter user name"
+        android:translationY="50"
         tools:layout_editor_absoluteX="99dp"
         tools:layout_editor_absoluteY="189dp" />
 
@@ -29,26 +30,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/n"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="-8dp"
+        android:layout_marginTop="19dp"
         android:paddingTop="20dp"
         android:paddingBottom="20dp"
         android:text="Click here"
         android:textColor="@color/black"
         android:textColorHighlight="#8C8383"
         android:textColorLink="#9C9696"
+        android:translationX="120"
+        android:translationY="100"
         tools:layout_editor_absoluteX="159dp"
         tools:layout_editor_absoluteY="293dp" />
 
-    <TextView
-        android:id="@+id/v"
+    <ImageView
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/c"
-        android:paddingTop="20dp"
-        android:paddingBottom="20dp"
-        android:textColor="@color/black"
-        tools:layout_editor_absoluteX="184dp"
-        tools:layout_editor_absoluteY="383dp" />
+        android:rotationX="-2"
+        android:translationX="75"
+        android:translationY="-250"
+        android:visibility="visible"
+        app:srcCompat="@drawable/images" />
 
 </RelativeLayout>
